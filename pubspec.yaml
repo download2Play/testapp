@@ -8,12 +8,49 @@ version: 1.0.0+1
 environment:
   sdk: '>=3.4.1 <4.0.0'
 
-
 dependencies:
   flutter:
     sdk: flutter
+  # Add only necessary dependencies here to keep the app size minimal.
 
+  # For instance, if you need vector graphics:
+  # flutter_svg: ^1.0.3
 
+  # If you need state management, choose a lightweight solution:
+  # provider: ^6.0.3
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
+  # Lints to maintain code quality (optional)
+  # lints: ^2.0.0
 
+  # Include flutter_native_splash if you need splash screens (optional)
+  # flutter_native_splash: ^2.0.0
+
+flutter:
+  uses-material-design: false # Set to true only if you need material icons
+
+  assets:
+    # List your assets here
+    # - assets/images/
+    # - assets/icons/
+
+  fonts:
+    # If using custom fonts, subset them to include only the necessary characters
+    # - family: CustomFont
+    #   fonts:
+    #     - asset: fonts/CustomFont-Regular.ttf
+    #       # Add any other font files as needed
+
+# Uncomment the following lines if you need these configurations
+
+# flutter_icons:
+#   android: true
+#   ios: true
+#   image_path: "assets/icon/icon.png"
+
+# flutter_native_splash:
+#   color: "#42a5f5"
+#   image: assets/splash.png
